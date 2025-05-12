@@ -44,7 +44,6 @@ mmdet/tools/__pycache__/
 # YOLO-specific
 runs/
 weights/
-dataset_yolo/
 
 
 # Ignore all YOLO runs
@@ -90,10 +89,6 @@ transformer_dataset/*
 *.gz
 
 # Ignore image/video results
-*.jpg
-*.png
-*.jpeg
-*.webp
 results/
 inference/
 outputs/
