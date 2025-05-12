@@ -46,14 +46,14 @@ runs/
 weights/
 dataset_yolo/
 
-# Ignore all runs
-yolov5/runs/
+# Ignore all YOLO runs
+yolov5/runs/*
 
-# Except exp18/best.pt
+# Allow exp18 and its weights dir and best.pt
+!yolov5/runs/train/
 !yolov5/runs/train/exp18/
 !yolov5/runs/train/exp18/weights/
 !yolov5/runs/train/exp18/weights/best.pt
-
 
 # COCO or custom dataset folders
 data/coco/
