@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Pyenv
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Compiled object files
+*.so
+*.o
+*.a
+*.out
+
+
+# MMDetection-specific
+work_dirs/
+mmdet/outputs/
+mmdet/tools/__pycache__/
+
+# YOLO-specific
+runs/
+weights/
+dataset_yolo/
+
+# Ignore all runs
+yolov5/runs/
+
+# Except exp18/best.pt
+!yolov5/runs/train/exp18/
+!yolov5/runs/train/exp18/weights/
+!yolov5/runs/train/exp18/weights/best.pt
+
+
+# COCO or custom dataset folders
+data/coco/
+data/coco/*
+
+# Custom dataset and annotations
+transformer_dataset/
+transformer_dataset/*
+
+# Checkpoints, training outputs, logs
+*.log.json
+*.log.txt
+*.onnx
+*.pb
+*.engine
+*.tflite
+
+# Caches
+*.cache
+*.pkl
+
+# Large media
+*.mp4
+*.avi
+*.zip
+*.tar.gz
+
+# Prevent pushing files >100MB (safety for LFS)
+# GitHub blocks these by default, but this helps locally
+*.7z
+*.tar
+*.gz
+
+# Ignore image/video results
+*.jpg
+*.png
+*.jpeg
+*.webp
+results/
+inference/
+outputs/
